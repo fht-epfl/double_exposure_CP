@@ -1,5 +1,10 @@
 # double_exposure_CP
-Double Exposure Computational Photography Deliverables
+Our Project can be basically devided in to 2 part, generating double exposure images and evaluate double exposure image.
+## Double Exposure Image Generation
+For the Generation part, we use 3 different method:
+- Traditional Operation (Traditional Operation/Pipeline(Tradition).ipynb)
+- ControlNet (ControlNet/ControlNet_Pipeline_HedTest.ipynb)
+- Stable Diffusion (latent_blending/SD_blending_latents.ipynb)
 
 # Project Structure
 <pre><code>
