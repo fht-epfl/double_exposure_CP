@@ -1,7 +1,6 @@
-# double_exposure_CP
+# Project Overview
 Our project is divided into two main parts: **generating double exposure images** and **evaluating the quality of those images**.
 
----
 
 ##  Double Exposure Image Generation
 
