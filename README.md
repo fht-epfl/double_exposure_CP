@@ -2,10 +2,9 @@
 Double Exposure Computational Photography Deliverables
 
 # Project Structure
-<pre><code>```
+<pre><code>
 .  
 ├── README.md  
-├── structure.txt  
 │  
 ├── clip_evaluation  
 │   ├── clip_evaluation.ipynb  
@@ -41,4 +40,4 @@ Double Exposure Computational Photography Deliverables
     └── Pipeline(Tradition).ipynb  
 
   
-  ```</code></pre>
+  </code></pre>
