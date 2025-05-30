@@ -2,8 +2,7 @@
 Double Exposure Computational Photography Deliverables
 
 # Project Structure
-<pre><code>```text 
-.
+<pre><code>```
 .  
 ├── README.md  
 ├── structure.txt  
