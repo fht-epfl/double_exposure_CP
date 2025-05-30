@@ -1,10 +1,35 @@
 # double_exposure_CP
-Our Project can be basically devided in to 2 part, generating double exposure images and evaluate double exposure image.
-## Double Exposure Image Generation
-For the Generation part, we use 3 different method:
-- Traditional Operation (Traditional Operation/Pipeline(Tradition).ipynb)
-- ControlNet (ControlNet/ControlNet_Pipeline_HedTest.ipynb)
-- Stable Diffusion (latent_blending/SD_blending_latents.ipynb)
+Our project is divided into two main parts: **generating double exposure images** and **evaluating the quality of those images**.
+
+---
+
+##  Double Exposure Image Generation
+
+We explore three different methods for generating double exposure images:
+
+- **Traditional Image Processing**  
+  [`Traditional Operation/Pipeline(Tradition).ipynb`](Traditional%20Operation/Pipeline(Tradition).ipynb)
+
+- **ControlNet-based Generation**  
+  [`ControlNet/ControlNet_Pipeline_HedTest.ipynb`](ControlNet/ControlNet_Pipeline_HedTest.ipynb)
+
+- **Stable Diffusion with Latent Blending**  
+  [`latent_blending/SD_blending_latents.ipynb`](latent_blending/SD_blending_latents.ipynb)
+
+---
+
+## Double Exposure Image Evaluation
+
+We evaluate the generated images using three different approaches:
+
+- **CLIP-based Semantic Similarity**  
+  [`clip_evaluation/clip_evaluation.ipynb`](clip_evaluation/clip_evaluation.ipynb)
+
+- **NIMA-based Aesthetic Scoring**  
+  [`NIMA_evaluation/NIMA.ipynb`](NIMA_evaluation/NIMA.ipynb)
+
+- **Our Proposed Metric Based on Empty Space Completeness**  
+  [`new_metric/1_Silhouette_Completeness_Score.ipynb`](new_metric/1_Silhouette_Completeness_Score.ipynb)
 
 # Project Structure
 <pre><code>
@@ -40,6 +65,9 @@ For the Generation part, we use 3 different method:
 │   │   ├── ranking.txt  # ranking list of evaluation metric
 │   │   └── ranking_evaluation.csv  # ranking list of evaluation metric and its original scores
 │   └── imgs/  
+│ 
+├── NIMA_evaluation
+│   └── NIMA.ipynb # Code for NIMA evaluation
 │  
 └── Traditional Operation  
     └── Pipeline(Tradition).ipynb  # Code for using traditional operations to generate double exposure images
