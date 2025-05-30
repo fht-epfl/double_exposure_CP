@@ -30,6 +30,9 @@ We evaluate the generated images using three different approaches:
 - **Our Proposed Metric Based on Empty Space Completeness**  
   [`new_metric/1_Silhouette_Completeness_Score.ipynb`](new_metric/1_Silhouette_Completeness_Score.ipynb)
 
+To evaluate whether our proposed metric accurately reflects human aesthetic preferences, we conducted a survey among our classmates.  
+The survey can be accessed [here](https://docs.google.com/forms/d/1JZuLU_eVU8ESYaRmBidF4uqUxly6MGZ4_WRVSDD8B1c).
+
 # Project Structure
 <pre><code>
 .  
