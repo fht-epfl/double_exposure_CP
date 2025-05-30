@@ -1,0 +1,15 @@
+1	img2
+2	relander-2
+3	relander-8
+4	Copy of pexels-nguy-n-trung-phuc-1772580055-28227424
+5	Copy of pexels-mati-6345007
+6	Copy of pexels-kseniya-kopna-52379050-7723547
+7	Copy of pexels-nguy-n-thanh-ng-c-485749-3995673
+8	Copy of pexels-kseniya-ozornina-82251748-8808085
+9	Copy of pexels-27-1-418919857-18465473
+10	Copy of pexels-stayhereforu-216201233-14455740
+
+
+CLIP: 6,2,7,5,4,10,9,3,8,1
+NIMA: 1,2,3,10,9,6,4,7,5,8
+SCS: 4,1,7,2,3,5,8,10,9,6
